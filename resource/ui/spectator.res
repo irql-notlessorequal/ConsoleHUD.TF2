@@ -20,9 +20,9 @@
 		"fieldName"		"TopBar"
 		"xpos"			"0"
 		"ypos"			"0"
-		"tall"			"104"	[$WIN32]
+		"tall"			"0"	[$WIN32]
 		"tall_minmode"			"20"	[$WIN32]
-		"tall"			"104"	[$X360]		
+		"tall"			"0"	[$X360]		
 		"wide"			"f0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -38,12 +38,12 @@
 		"ypos"			"r90"	[$WIN32]
 		"ypos"			"r90"	[$X360]		
 		"ypos_minmode"	"r20"
-		"tall"			"90"	[$WIN32]
+		"tall"			"0"	[$WIN32]
 		"tall_minmode"	"0"		
-		"tall"			"90"	[$X360]		
+		"tall"			"0"	[$X360]		
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"0"
 		"tabPosition"		"0"
 	}
@@ -52,16 +52,16 @@
 		"ControlName"		"Panel"
 		"fieldName"		"bottombarblank"
 		"xpos"			"0"
-		"ypos"			"r90"	[$WIN32]
-		"ypos"			"r90"	[$X360]		
+		"ypos"			"5000"	[$WIN32]
+		"ypos"			"5000"	[$X360]		
 		"ypos_minmode"	"r0"
-		"tall"			"90"	[$WIN32]		// this needs to match the size of BottomBar
+		"tall"			"0"	[$WIN32]		// this needs to match the size of BottomBar
 		"tall_minmode"	"0"		
-		"tall"			"90"	[$X360]		
+		"tall"			"0"	[$X360]		
 		"wide"			"f0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"visible_minmode"		"0"
 		"enabled"		"1"
 		"tabPosition"		"0"
@@ -129,7 +129,7 @@
 		"tall_hidef"		"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"visible_minmode"		"0"
 		"enabled"		"1"
 		"labelText"		"map: cp_bridge"
@@ -169,7 +169,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
-		"xpos"			"53"		[$WIN32]
+		"xpos"			"5"		[$WIN32]
 		"ypos"			"40"	[$WIN32]
 		"xpos"			"53"	[$X360]
 		"ypos"			"40"	[$X360]
@@ -191,7 +191,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeLabel"
-		"xpos"			"128"	[$WIN32]
+		"xpos"			"80"	[$WIN32]
 		"ypos"			"40"	[$WIN32]
 		"xpos"			"128"	[$X360]
 		"ypos"			"40"	[$X360]		
@@ -310,7 +310,7 @@
 		"tall_lodef"	"70"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"visible_minmode"		"0"
 		"enabled"		"1"
 		"labelText"		"%tip%"
