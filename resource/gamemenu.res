@@ -161,7 +161,15 @@
 		"OnlyInGame"	"1"
 		"subimage"		""
 		"tooltip"		""
-	}	
+	}
+        "ChangeServerButton"
+        {
+                "label"                 ""
+                "command"               "OpenServerBrowser"
+                "OnlyInGame"    "1"
+                "subimage"              ""
+                "tooltip"               ""
+        }
 	"MapInformationButton"
 	{
 		"label"			""

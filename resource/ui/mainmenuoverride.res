@@ -3963,11 +3963,82 @@
 				"mouseinputenabled"		"0"
 			}	
 		}
+
+		ChangeServerButton{
+			"ControlName"		"EditablePanel"
+			"fieldname"			"ChangeServerButton"
+			"xpos"				"10"
+			"ypos"				"s3.49"
+			"zpos"				"0"
+			"wide"				"236"
+			"tall"				"24"
+			
+			"visible"			"1"
+			
+			"SubButton"
+			{
+				ControlName					CExImageButton
+				fieldName					SubButton
+				xpos						0
+				ypos						0
+				wide						236
+				tall						24
+				autoResize					0
+				pinCorner					0
+				visible						1
+				enabled						1
+				textinsety					7
+				textinsetx					15
+				font						HudFontMediumSmallSecondary
+				textAlignment				north-west
+				dulltext					0
+				brighttext					0
+				default						1
+				fgcolor						HudOffWhite
+				
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				// default style
+				"defaultBgColor_override"	"Black"
+				"defaultFgColor_override"	"HudOffWhite"
+				"border_default"		"HudBlack"
+					
+				// armed style
+				"armedBgColor_override"	"Orange"
+				"armedFgColor_override" 	"HudOffWhite"
+				"border_armed"		"TFOrange"
+				
+				// depressed style    
+				"depressedBgColor_override"	"Black"
+				"depressedFgColor_override" "HudOffWhite"
+			}
+			"ChangeServerTitleLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"ChangeServerTitleLabel"
+				"font"					"HudFontMediumSmallSecondary"
+				"labelText"				"#MMenu_ChangeServer"
+				"textAlignment"			"north-west"
+				"xpos"					"7"
+				"ypos"					"3"
+				"zpos"					"1"
+				"wide"					"236"
+				"tall"					"30"
+				"autoResize"			"0"
+				"pinCorner"				"0"
+				"visible"				"1"
+				"enabled"				"1"
+				"fgcolor_override"		"HudOffWhite"
+				"mouseinputenabled"		"0"
+			}	
+		}
+
 		MapInformationButton{
 			"ControlName"		"EditablePanel"
 			"fieldname"			"MapInformationButton"
 			"xpos"				"10"
-			"ypos"				"s3.49"
+			"ypos"				"s4.57"
 			"zpos"				"0"
 			"wide"				"236"
 			"tall"				"24"
@@ -4037,7 +4108,7 @@
 			"ControlName"		"EditablePanel"
 			"fieldname"			"InGame_AchievementsButton"
 			"xpos"				"10"
-			"ypos"				"s4.57"
+			"ypos"				"s5.63"
 			"zpos"				"0"
 			"wide"				"236"
 			"tall"				"24"
@@ -4106,7 +4177,7 @@
 			"ControlName"		"EditablePanel"
 			"fieldname"			"InGame_LoadoutMenuButton"
 			"xpos"				"10"
-			"ypos"				"s5.63"
+			"ypos"				"s6.71"
 			"zpos"				"0"
 			"wide"				"236"
 			"tall"				"24"
@@ -4175,7 +4246,7 @@
 			"ControlName"		"EditablePanel"
 			"fieldname"			"InGame_LegacyOptionsButton"
 			"xpos"				"10"
-			"ypos"				"s6.71"
+			"ypos"				"s7.81"
 			"zpos"				"0"
 			"wide"				"236"
 			"tall"				"24"
@@ -4244,7 +4315,7 @@
 			"ControlName"		"EditablePanel"
 			"fieldname"			"DisconnectButton"
 			"xpos"				"10"
-			"ypos"				"s7.81"
+			"ypos"				"s8.91"
 			"zpos"				"0"
 			"wide"				"236"
 			"tall"				"24"
